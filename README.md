@@ -37,7 +37,7 @@ rem copy all the qt plugins
 xcopy ..\..\vcpkg\packages\qtbase_x64-windows\debug\Qt6\plugins\ plugins\ /S
 
 rem copy all the qskinny plugins
-xcopy ..\..\vcpkg\packages\qsqkinny_x64-windows\debug\lib\qskinny\plugins\ plugins\ /S
+xcopy ..\..\vcpkg\packages\qskinny_x64-windows\debug\lib\qskinny\plugins\ plugins\ /S
 
 rem set the plugin path
 set QSK_PLUGIN_PATH=plugins
